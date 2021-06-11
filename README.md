@@ -19,4 +19,5 @@ $ cd fast-setup-wsl && sudo bash setup.sh
 # Zsh
 # Oh-My-Zsh
 # Auto Suggestions, Completions, Syntax Highlighting
+# Minimal theme
 ```
