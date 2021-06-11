@@ -11,5 +11,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 
+# change default zsh theme to minimal
+sed -i 's/robbyrussell/minimal/' ~/.zshrc
+
 # default shell
 chsh -s /bin/zsh
